@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.slider-container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10%;
+  padding: 20px;
+}
+.slider-container .slider {
+  width: 18rem;
+  height: 22rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.slider-container .btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
