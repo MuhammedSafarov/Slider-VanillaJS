@@ -87,9 +87,12 @@
 }
 .pagination-btn:hover {
   background-color: orange;
-  color: black;
   cursor: pointer;
 }
-.active {
+.pagination-btn:hover b {
+  color: black;
+}
+.active b {
   color: orange;
+  font-size: 18px;
 }
